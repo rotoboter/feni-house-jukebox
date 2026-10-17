@@ -1,0 +1,13 @@
+:root { --bg: #0e1513; --fg: #e8eeeb; --soft: #a9b6b1; --accent: #5cc4bc; --rule: #26332f; color-scheme: dark; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--fg); font: 17px/1.65 Georgia, "Times New Roman", serif;
+       padding: 48px max(18px, env(safe-area-inset-left)) 64px max(18px, env(safe-area-inset-right)); }
+main { max-width: 680px; margin: 0 auto; }
+h1, h2 { font-family: "Helvetica Neue", Arial, sans-serif; line-height: 1.15; }
+h1 { font-size: 34px; margin: 0 0 12px; }
+h2 { font-size: 21px; margin: 32px 0 8px; }
+p, li { color: var(--fg); }
+.lede, .meta { color: var(--soft); }
+a { color: var(--accent); }
+nav { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 14px; margin-bottom: 32px; display: flex; gap: 18px; }
+footer { border-top: 1px solid var(--rule); margin-top: 40px; padding-top: 16px; color: var(--soft); font-size: 14px; }
